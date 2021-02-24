@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <author>David Koser</author>
     <title>SpaceX</title>
 </head>
 
 <body>
     <main>
-        <section class="section" id="section1">
-            <nav class="text">
-                <img class="image" id="logo" src="./img/SpaceX_Logo.jpg" height=30px>
+        <section id="section1">
+            <nav id="topNav">
+                <img id="logo" src="./img/SpaceX_Logo.jpg" height=30px>
                 <a class="navLinks">FALCON 9</a>
                 <a class="navLinks">FALCON HEAVY</a>
                 <a class="navLinks">DRAGON</a>
@@ -27,23 +28,47 @@
                     <div class="hamburger"></div>
                 </button>
             </nav>
-            <div class="text" id ="starlink">
-                <h3>Recent Launch</h3>
-                <h1>Starlink Mission</h1>
-                <button class="text" id="replay">REPLAY</button>
+            <div class ="descriptor" id="desc1">
+                <h2>RECENT LAUNCH</h2>
+                <h1>STARLINK MISSION</h1>
+                <button class="squareButton">REPLAY</button>
             </div>
         </section>
-        <section class="section" id="section2">
+        <section id = "section2">
             <video id ="backgroundVideo" loop autoplay muted>
                 <source src="img/SN8_Website_03.mp4" type="video/mp4">
                 This video is not compatible with your browser
             </video>
+            <div class ="descriptor"id="desc2">
+                <h1>STARSHIP</h1>
+                <h3>Starship is SpaceX’s fully reusable transportation system designed to carry both crew and cargo to the Earth’s orbit, the Moon, Mars, and beyond.</h3>
+                <button class="squareButton">LEARN MORE</button>
+            </div>
         </section>
-        <section class="section" id="section3"></section>
-        <section class="section" id="section4"></section>
+        <section id="section3">
+            <div class="descriptor" id="desc3">
+                <h1>CREW-1 MISSION</h1>
+                <h3>Watch the Crew-1 mission from the beginning.</h3>
+                <button class="squareButton">LEARN MORE</button>
+            </div>
+        </section>
+        <section id="section4">
+            <div class="descriptor"id="desc4">
+                <h1>DRAGON DOCKING SIMULATOR</h1>
+                <h3>Dragon is designed to autonomously dock and undock with the International Space Station. However, the crew can take manual control of the spacecraft if necessary.</h3>
+                <button class="squareButton">TRY NOW</button>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div id="author">DJKoser 2021</div>
+        <nav id="footNav">
+            <a class="footLinks" >TWITTER</a>
+            <a class="footLinks">YOUTUBE</a>
+            <a class="footLinks">FLICKR</a>
+            <a class="footLinks">LINKEDIN</a>
+            <a class="footLinks">PRIVACY POLICY</a>
+        </nav>
     </footer>
 </body>
 
